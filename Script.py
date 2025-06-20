@@ -80,18 +80,18 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
     STATUS_TXT = """<b><blockquote>Tᴏᴛᴀʟ Fɪʟᴇs Fʀᴏᴍ Bᴏᴛʜ DBs: <code>{}</code></blockquote>
 
 Bᴏᴛ Usᴇʀs ᴀɴᴅ Cʜᴀᴛs Cᴏᴜɴᴛ
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
+🗃️ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
+💎 Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 
 Pʀɪᴍᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs 
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+🗃️ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+🗄️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+🗂️ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 
 Sᴇᴄᴏɴᴅᴀʀʏ Dᴀᴛᴀʙᴀsᴇ Sᴛᴀᴛɪsᴛɪᴄs
-★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+🗃️ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
+🗄️ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
+🗂️ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
 </b>"""
     
     LOG_TEXT_G = """#NewGroup
