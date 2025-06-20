@@ -12,14 +12,14 @@ class script(object):
     
     ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴅᴇᴛᴀɪʟꜱ ]───⍟</blockquote>
     
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>Click Here</a>
-‣ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href="https://t.me/im_goutham_josh">ᴏᴡɴᴇʀ</a> 
-‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
-‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
-‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://koyeb.com'>Koyeb</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+‣ ᵐʸ ⁿᵃᵐᵉ : <a href=https://t.me/{}>Click Here</a>
+‣ ᵐʸ ᵇᵉˢᵗ ᶠʳⁱᵉⁿᵈ  : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+‣ ᵈᵉᵛᵉˡᵒᵖᵉʳ : <a href="https://t.me/im_goutham_josh">ᴏᴡɴᴇʀ</a> 
+‣ ˡⁱᵇʳᵃʳʸ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
+‣ ˡᵃⁿᵍᵘᵃᵍᵉ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
+‣ ᵈᵃᵗᵃ ᵇᵃˢᵉ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+‣ ᵇᵒᵗ ˢᵉᵛᵉʳ  : <a href='https://koyeb.com'>Koyeb</a> 
+‣ ᵇᵘⁱˡᵈ ˢᵗᵃᵗᵘˢ : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
     
     SOURCE_TXT = """<b>NOTE:</b>
 
