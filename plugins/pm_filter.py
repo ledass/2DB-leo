@@ -83,9 +83,9 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
             [
-                InlineKeyboardButton(f'ℹ iɴꜰᴏ', 'reqinfo'),
-                InlineKeyboardButton(f'📽 Mᴏᴠɪᴇ', 'minfo'),
-                InlineKeyboardButton(f'💀 Sᴇʀɪᴇꜱ', 'sinfo')
+                InlineKeyboardButton(f'🔰 ⁱⁿᶠᵒ', 'reqinfo'),
+                InlineKeyboardButton(f'💎 ᵐᵒᵛⁱᵉ', 'minfo'),
+                InlineKeyboardButton(f'🎭 ˢᵉʳⁱᵉˢ', 'sinfo')
             ]
         )
     btn.insert(1,
@@ -720,9 +720,9 @@ async def auto_filter(client, msg, spoll=False):
 
     # ✅ Add static top buttons
     btn.insert(0, [
-        InlineKeyboardButton(f'ℹ iɴꜰᴏ', 'reqinfo'),
-        InlineKeyboardButton(f'📽 Mᴏᴠɪᴇ', 'minfo'),
-        InlineKeyboardButton(f'💀 Sᴇʀɪᴇꜱ', 'sinfo')
+        InlineKeyboardButton(f'🔰 ⁱⁿᶠᵒ', 'reqinfo'),
+        InlineKeyboardButton(f'💎 ᵐᵒᵛⁱᵉ', 'minfo'),
+        InlineKeyboardButton(f'🎭 ˢᵉʳⁱᵉˢ', 'sinfo')
     ])
 
     btn.insert(1, [
