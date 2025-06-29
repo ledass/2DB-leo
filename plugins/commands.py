@@ -105,22 +105,21 @@ async def start(client, message: Message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
-            [InlineKeyboardButton('🪄 ᵃᵈᵈ ᵗᵒ ʸᵒᵘʳ ᵍʳᵒᵘᵖ 🪄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')],
-            [
-                InlineKeyboardButton('🛠 ʰᵉˡᵖ', callback_data='help'),
-                InlineKeyboardButton('💎 ᵃᵇᵒᵘᵗ', callback_data='about')
-            ],[
-                InlineKeyboardButton('© ᵈᵐᶜᵃ', callback_data='dmca')
-            ]
-        ]
+                InlineKeyboardButton('⚙ Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀꜱᴇꜱ ⚙', url=f'https://t.me/+uA5gEKm8WXk1ZTll')
+               ],[
+                InlineKeyboardButton('⚓️ Oᴛᴛ Iɴsᴛᴀɢʀᴀᴍ Cʜᴀɴɴᴇʟ ⚓️', url=f'https://www.instagram.com/new_ott__updates?igsh=enI5ZzIzcXuzd3Bl')
+              ],[
+                InlineKeyboardButton('🖥 Oᴛᴛ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 🖥', url="https://t.me/+P_ni_6Ji_DAyMzQ1"),
+        ]       
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_video(
+            video="https://envs.sh/_O0.mp4",
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
         return
+            
     data = message.command[1]
     try:
         pre, file_id = data.split('_', 1)
