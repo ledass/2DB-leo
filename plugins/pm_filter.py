@@ -405,20 +405,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer("𝑊ℎ𝑦 𝐴𝑟𝑒 𝑌𝑜𝑢 𝐶𝑙𝑖𝑐𝑘𝑒𝑑 𝐻𝑒𝑟𝑒 !!!")
     elif query.data == "start":
-        buttons = [[
-            InlineKeyboardButton('🪄 ᵃᵈᵈ ᵗᵒ ʸᵒᵘʳ ᵍʳᵒᵘᵖ 🪄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ], [
-            InlineKeyboardButton('🛠 ʰᵉˡᵖ', callback_data='help'),
-            InlineKeyboardButton('💎 ᵃᵇᵒᵘᵗ', callback_data='about')
-        ], [
-            InlineKeyboardButton('© ᵈᵐᶜᵃ', callback_data='dmca')
-        ]]
+        buttons = [
+               InlineKeyboardButton('⚙ Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀꜱᴇꜱ ⚙', url=f'https://t.me/+uA5gEKm8WXk1ZTll')
+               ],[
+                InlineKeyboardButton('⚓️ Oᴛᴛ Iɴsᴛᴀɢʀᴀᴍ Cʜᴀɴɴᴇʟ ⚓️', url=f'https://www.instagram.com/new_ott__updates?igsh=enI5ZzIzcXuzd3Bl')
+              ],[
+                InlineKeyboardButton('🖥 Oᴛᴛ Uᴩᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ 🖥', url="https://t.me/+P_ni_6Ji_DAyMzQ1"),
+        ]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        
+            
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
